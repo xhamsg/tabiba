@@ -1,0 +1,412 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background: #faf9f9;
+    width: 100%;
+}
+.navbox
+{
+    background: #0c0707;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    position: sticky;
+    top: 0;
+    a{
+        text-decoration: none;
+        color: #fff;
+        text-align: center;    
+    }
+}
+.logo{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    span{
+        padding-top: 3px;
+        letter-spacing: 4px;
+    }
+    img{
+        width: 60px;
+    }
+}
+.navlinks{
+    padding: 0 40px;
+    font-size: 15px;
+    a{
+        padding: 20px;
+    }
+    a:hover{
+        background: #fff;
+        color: #000;
+    }
+}
+.openmenu{
+    display: none;
+}
+.closemenu{
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+    color: #fff;
+}
+.hamburger {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.nav.open {
+    height: 150px;
+}
+
+
+/* Homepage Section Starts */
+.banner-bx>img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 20px;
+}
+/* src/App.css */
+
+.homepage {
+  text-align: center;
+}
+
+header>img {
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.header-txt{
+    position: relative;
+    top: 50%;
+}
+.header-txt h1{
+    font-size: 3rem;
+}
+.header-txt p{
+    font-size: 1.5rem;
+}
+.introduction{
+    width: 100%;
+    height: 780px;
+    padding: 50px;
+}
+.introduction img{
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+  }
+.intro-text {
+  text-align: left;
+  padding: 5px 0;
+}
+.intro-text h2{
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+.blog-section {
+    margin-top: 40px;
+}
+.blog-section h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.blogs{
+    display: block;
+    text-align: left;
+    padding: 40px;
+}
+.blogs a{
+    margin-top: 20px;
+    width: 200px;
+    background: #000;
+    padding: 12px 10px;
+    text-decoration: none;
+    color: #fff;    
+}
+.bl-tx p{
+    padding: 5px 0 20px 0;
+}
+.left-image {
+    float: left;
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .right-image {
+    float: right;
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+.blog-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding: 30px 50px;
+}
+.blog-1 p{
+    text-align: justify;
+}
+.blog-1 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+}   
+
+.blog-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding: 30px 50px;
+    p{
+        text-align: justify;
+    }
+}
+
+.blog-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding: 30px 50px;
+    p{
+        text-align: justify;
+    }
+}
+.blog-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding: 30px 50px;
+    p{
+        text-align: justify;
+    }
+}
+.blog-5{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding: 30px 50px;
+    p{
+        text-align: justify;
+    }
+}
+.blog-6{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding: 30px 50px;
+    p{
+        text-align: justify;
+    }
+}
+.blog-7{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding: 30px 50px;
+    p{
+        text-align: justify;
+    }
+}
+.blog-8{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding: 30px 50px;
+    p{
+        text-align: justify;
+    }
+}
+.contact-section{
+    height: 450px;
+    h1{
+        padding: 10px;
+    }
+    .contact-cards{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-card{
+        padding: 40px;
+        p{
+            padding: 30px;
+        }
+        a{
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            background: #000;
+            padding: 15px 10px;
+        }
+    }
+}
+
+
+footer{
+    width: 100%;
+    height: 350px;
+    background: #0c0707;
+    color: #fff;
+    text-align: left;
+    padding: 40px 0;
+    
+}
+.logo-btm{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    span{
+        padding-top: 3px;
+        letter-spacing: 4px;
+    }
+    img{
+        width: 60px;
+    }
+}
+.ft-x{
+    display: flex;
+    justify-content: center;
+    
+}
+.ftr-lnk{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.lnk{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}
+.lnk a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 31px;
+}
+.fa-whatsapp{
+    font-size: 34px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+@media (max-width: 425px) {
+    .navlinks {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: right 1s ease;
+        display: none;
+    }
+    .navlinks .closemenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff; 
+    }
+    .navbox .openmenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .logo{
+        margin-left: 80px;
+    }
+    header>img {
+        height: 350px;
+    }
+    .introduction{
+        height: 550px;
+    }
+    .introduction img{
+        width: 100%;
+        height: 250px;
+        border-radius: 8px;
+      }
+      .blogs{
+        padding: 0;
+      }
+      .blog-1{
+        padding: 30px;
+    }    
+    .blog-2{
+        padding: 30px;
+    }
+    
+    .blog-3{
+        padding: 30px;
+    }
+    .blog-4{
+        padding: 30px;
+    }
+    .blog-5{
+        padding: 30px;
+    }
+    .blog-6{
+        padding: 30px;
+    }
+    .blog-7{
+        padding: 30px;
+    }
+    .blog-8{
+        padding: 30px;
+    }
+    .contact-section .contact-card{
+        padding: 8px;
+    }
+    .ft-x{
+        text-align: justify;
+        padding: 0 15px;
+    }
+    .copyright{
+        padding: 0 50px;
+        font-size: 15px;
+    }
+}
